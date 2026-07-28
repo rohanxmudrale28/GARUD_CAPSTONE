@@ -10,22 +10,12 @@ class ObjectEngine:
 
     def detect(self, frame):
         results = self.model.track(
-            frame,
-            persist=True,
-            device=self.device,
-            conf=0.6,
-            iou=0.5,
-            verbose=False
-        )
-        return self.extract_detections(results)
-
-    def extract_detections(self, results):
-        detections = []
-        for r in results:
-            for box in r.boxes:
-                detections.append({
-                    "class_name": self.model.names[int(box.cls[0])],
-                    "confidence": float(box.conf[0]),
-                    "bbox": box.xyxy[0].tolist()
-                })
-        return detections
+    frame,
+    persist=True,
+    device=self.device,
+    conf=0.6,
+    iou=0.5,
+    verbose=False
+)
+        
+        return results 
