@@ -7,3 +7,14 @@ class ObjectEngine:
         print(f"Using device: {self.device}")
 
         self.model = YOLO(model_path)
+
+def detect(self, frame):
+        results = self.model.track(
+            frame,
+            persist=True,
+            device=self.device,
+            conf=0.6,
+            iou=0.5,
+            verbose=False
+        )
+        return results
