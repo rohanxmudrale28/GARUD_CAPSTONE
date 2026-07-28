@@ -17,4 +17,15 @@ def detect(self, frame):
             iou=0.5,
             verbose=False
         )
-        return results
+        return self.extract_detections(results)
+        
+def extract_detections(self, results):
+        detections = []
+        for r in results:
+            for box in r.boxes:
+                detections.append({
+                    "class_name": self.model.names[int(box.cls[0])],
+                    "confidence": float(box.conf[0]),
+                    "bbox": box.xyxy[0].tolist()
+                })
+        return detections
