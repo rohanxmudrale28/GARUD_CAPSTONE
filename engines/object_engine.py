@@ -8,7 +8,7 @@ class ObjectEngine:
 
         self.model = YOLO(model_path)
 
-def detect(self, frame):
+    def detect(self, frame):
         results = self.model.track(
             frame,
             persist=True,
@@ -18,8 +18,8 @@ def detect(self, frame):
             verbose=False
         )
         return self.extract_detections(results)
-        
-def extract_detections(self, results):
+
+    def extract_detections(self, results):
         detections = []
         for r in results:
             for box in r.boxes:
