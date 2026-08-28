@@ -1,0 +1,9 @@
+<!doctype html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>GARUD Command</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"><link rel="stylesheet" href="/static/dashboard.css"></head>
+<body><header><div class="brand">GARUD <span>TRAFFIC COMMAND</span></div><div id="clock"></div><div id="status">● CONNECTING</div></header>
+<main><section class="mapShell panel"><div class="label">GEOSPATIAL CAMERA GRID</div><div id="map"></div><div class="rings"></div></section>
+<section class="right"><div class="panel feed"><div class="label">PRIMARY OPTICAL FEED</div><img id="feed"><div id="placeholder">SELECT A CAMERA NODE</div></div>
+<div class="panel metrics"><div class="label">LIVE TELEMETRY</div><div id="metrics"></div><div class="signals"><button data-s="red">RED</button><button data-s="amber">AMBER</button><button data-s="green">GREEN</button></div></div></section>
+<section class="panel events"><div class="label">INCIDENT STREAM</div><div id="events"></div></section></main>
+<div id="alarm"><div class="alertCore">CRITICAL TRAFFIC ALERT<strong id="alarmText"></strong><button id="ack">ACKNOWLEDGE</button></div></div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script><script src="/static/dashboard.js"></script></body></html>

@@ -1,0 +1,12 @@
+  "C001": {
+    "name": "GARUD Test Junction",
+    "city": "Mumbai",
+    "lat": 19.1872,
+    "lng": 72.8484,
+    "source": "test_videos/red_light_test.mp4",
+    "wrong_way_lane": {"polygon": [[0.05,0.48],[0.47,0.48],[0.58,1.0],[0.0,1.0]], "allowed_direction": [0,-1], "opposite_dot_threshold": -0.35},
+    "stop_line": [[0.05,0.61],[0.90,0.61]],
+    "restricted_lane": {"polygon": [[0.68,0.45],[0.89,0.45],[1.0,1.0],[0.78,1.0]], "allowed_classes": ["bus"]},
+    "no_stopping_zone": {"polygon": [[0.44,0.58],[0.68,0.58],[0.76,0.95],[0.48,0.95]], "seconds": 8}
+  }
+}
