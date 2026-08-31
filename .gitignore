@@ -2,3 +2,11 @@
 __pycache__/
 .venv/
 __pycache__/
+
+# Python generated files
+__pycache__/
+*.pyc
+*.pyo
+
+# Generated cybersecurity reports
+cybersecurity/reports/*.json

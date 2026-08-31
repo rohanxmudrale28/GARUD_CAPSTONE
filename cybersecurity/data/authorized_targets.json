@@ -1,0 +1,10 @@
+[
+  {
+    "device_id": "LAPTOP-TEST-001",
+    "name": "Development Laptop",
+    "ip_address": "192.168.1.5",
+    "device_type": "test_host",
+    "location": "Local Development Environment",
+    "authorized": true
+  }
+]
