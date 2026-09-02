@@ -1,0 +1,52 @@
+# Python virtual environments
+weapon_env/
+.venv/
+venv/
+env/
+
+# Python-generated files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# External pretrained model assets
+mobileclip_blt.ts
+yoloe-*.pt
+*.pt
+*.pth
+*.onnx
+
+# Local CCTV input media
+input/videos/*
+input/images/*
+
+# Allow folder documentation
+!input/videos/README.md
+!input/images/README.md
+
+# Generated outputs
+output/videos/*
+output/images/*
+output/alert_frames/*
+output/model_comparison/
+
+# Allow folder documentation
+!output/videos/README.md
+!output/images/README.md
+!output/alert_frames/README.md
+
+# Local inventories
+project_tree.txt
+project_tree_clean.txt
+project_file_inventory.csv
+project_file_inventory.txt
+large_files.txt
+
+# Editor and operating-system files
+.vscode/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
