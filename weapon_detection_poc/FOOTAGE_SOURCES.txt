@@ -1,0 +1,35 @@
+TEST 1
+Filename: indian_cctv_weapon_test1.mp4
+Publisher: India Today
+Location stated by publisher: Saharanpur, Uttar Pradesh, India
+Source URL:
+https://www.indiatoday.in/india/video/up-robbery-video-masked-men-loot-rs-15-lakh-from-jan-seva-kendra-in-saharanpur-2654128-2024-12-23
+Purpose: Limited academic model evaluation
+Original footage redistributed on GitHub: No
+
+TEST 2
+Filename: indian_cctv_weapon_test2.mp4
+Publisher: India Today
+Location stated by publisher: Bengaluru area, Karnataka, India
+Source URL:
+https://www.youtube.com/watch?v=aquFGmXkAhQ
+Purpose: Limited academic model evaluation
+Original footage redistributed on GitHub: No
+
+TEST 3
+Filename: indian_cctv_weapon_test3.mp4
+Publisher: News9
+Location stated by publisher: Hunsur, Mysuru, Karnataka, India
+Source URL:
+https://www.youtube.com/watch?v=dE0azhC0fTY
+Purpose: Limited academic model evaluation
+Original footage redistributed on GitHub: No
+
+TEST 4
+Filename: indian_cctv_weapon_test4.mp4
+Publisher: NDTV
+Location stated by publisher: Nashik, Maharashtra, India
+Source URL:
+https://www.ndtv.com/india-news/video-gun-pointed-at-them-jewellery-shop-staff-fight-robbers-in-nashik-11504833
+Purpose: Limited academic model evaluation
+Original footage redistributed on GitHub: No
